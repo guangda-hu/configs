@@ -1,4 +1,4 @@
-package packages
+package main
 
 import (
 	// Used by Sublime plugin https://github.com/liuhewei/gotools-sublime
@@ -11,3 +11,5 @@ import (
 	// OAuth2l
 	_ "github.com/google/oauth2l"
 )
+
+func main() {}
